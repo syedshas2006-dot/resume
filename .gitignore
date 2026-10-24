@@ -1,0 +1,26 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit Local Cache
+.streamlit/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and Reports
+*.log
+reports/*.pdf
+reports/*.docx
+!reports/.gitkeep
